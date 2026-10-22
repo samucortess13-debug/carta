@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#190f18">
+    <title>Nuestra pequeña historia ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="corazones" id="corazones" aria-hidden="true"></div>
+
+<div class="adornos" aria-hidden="true">
+
+    <img class="muneco spiderman" src="fotos/spiderman.png.png" alt="">
+
+</div>
+
+    <main class="contenedor">
+
+        <!-- PANTALLA DE BIENVENIDA -->
+        <section class="pantalla" id="inicio">
+            <img class="muneco kitty-titulo" src="fotos/kitty.png.png" alt="">
+            <div class="corazon-grande">❤️</div>
+            <p class="etiqueta">UN PEQUEÑO REGALO PARA TI</p>
+            <h1>Nuestra pequeña historia</h1>
+            <p class="subtitulo">
+                Hay recuerdos que quiero guardar para siempre...
+                y muchos de ellos son contigo.
+            </p>
+
+            <button class="boton" id="btnComenzar">
+                Abrir mi regalo 💌
+            </button>
+
+            <p class="detalle">Hecho con mucho amor, especialmente para ti.</p>
+        </section>
+
+        <!-- CONTENIDO DEL REGALO -->
+        <section id="regalo" class="oculto">
+
+            <header class="encabezado">
+                <p class="etiqueta">PARA MI PERSONA FAVORITA</p>
+                <h2>Me alegra que seas parte de mi historia ❤️</h2>
+                <p>Quiero regalarte un pequeño lugar lleno de nosotros.</p>
+            </header>
+
+            <!-- CARTA -->
+            <section class="tarjeta">
+                <div class="icono">💌</div>
+                <h2>Una carta para ti</h2>
+                <p>Hay algo que quiero decirte...</p>
+
+                <button class="boton" id="btnCarta">
+                    Abrir la carta
+                </button>
+
+                <div id="carta" class="carta oculto">
+                    <h3>Mi amor ❤️</h3>
+                    <p>
+                        Quise hacerte este pequeño regalo para que tengas
+                        un lugar al que puedas volver cuando quieras
+                        recordar lo especial que eres para mí.
+                    </p>
+                    <p>
+                        Me encanta tener recuerdos contigo, compartir
+                        momentos y seguir creando historias a tu lado.
+                        No todo tiene que ser perfecto para que algo
+                        sea bonito y verdadero.
+                    </p>
+                    <p>
+                        Ojalá podamos seguir sumando momentos, risas,
+                        abrazos y recuerdos que algún día miremos
+                        con una sonrisa.
+                    </p>
+                    <p>
+                        Gracias por ser parte de mi vida.
+                        Te quiero muchísimo. ❤️
+                    </p>
+                    <p class="firma">Con amor, tu persona favorita. 💗</p>
+                </div>
+            </section>
+
+            <!-- GALERÍA DE FOTOS -->
+            <section class="seccion">
+                <p class="etiqueta">NUESTROS RECUERDOS</p>
+                <h2>Momentos que guardo en mi corazón 📸</h2>
+                <p class="ayuda">
+                    Estas imágenes son ejemplos. Puedes cambiarlas por
+                    las fotos de ustedes.
+                </p>
+
+                <div class="galeria">
+                    <figure class="foto">
+                        <img src="fotos/foto1.jpg.jpeg" alt="Nuestro primer recuerdo" loading="lazy">
+                        <figcaption>Un recuerdo bonito ❤️</figcaption>
+                    </figure>
+
+                    <figure class="foto">
+                        <img src="fotos/foto2.jpg.jpeg" alt="Un momento especial juntos" loading="lazy">
+                        <figcaption>Un momento especial 💗</figcaption>
+                    </figure>
+
+                    <figure class="foto">
+                        <img src="fotos/foto3.jpg.jpeg" alt="Un día para recordar" loading="lazy">
+                        <figcaption>De esos días que no olvido ✨</figcaption>
+                    </figure>
+
+                    <figure class="foto">
+                        <img src="fotos/foto4.jpg.jpeg" alt="Otro recuerdo de nosotros" loading="lazy">
+                        <figcaption>Y muchos más por vivir 🫶</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- FRASES ALEATORIAS -->
+            <section class="tarjeta">
+                <div class="icono">💞</div>
+                <h2>Un mensajito para ti</h2>
+                <p id="frase">Eres un recuerdo bonito incluso en los días normales.</p>
+
+                <button class="boton" id="btnFrase">
+                    Dame otra frase ✨
+                </button>
+            </section>
+
+            <!-- SORPRESA -->
+            <section class="tarjeta">
+                <div class="icono">🎁</div>
+                <h2>Tengo otra sorpresa</h2>
+                <p>Hay cosas bonitas que todavía quiero decirte.</p>
+
+                <button class="boton" id="btnSorpresa">
+                    Descubrir sorpresa 💖
+                </button>
+
+                <div id="sorpresa" class="oculto sorpresa">
+                    <div class="corazon-grande">💗</div>
+                    <h3>Si pudiera guardar un sentimiento...</h3>
+                    <p>
+                        Guardaría esa felicidad de compartir momentos
+                        contigo, para volver a sentirla cada vez que
+                        mire nuestros recuerdos.
+                    </p>
+                </div>
+            </section>
+
+            <!-- CANCIÓN -->
+            <section class="tarjeta">
+                <div class="icono">🎵</div>
+                <h2>Nuestra canción</h2>
+                <p>
+                    Una canción que me recuerda a ti y a nuestra historia. ❤️
+                </p>
+
+                <audio controls preload="metadata" style="width: 100%;">
+                    <source src="musica/chachacha.mp3" type="audio/mpeg">
+                    Tu navegador no puede reproducir esta canción.
+
+                </audio>
+            </section>
+
+                </p>
+
+                <a
+                    class="boton enlace-musica"
+                    href="https://www.youtube.com/watch?v=sDMxQF18yvA&list=RDsDMxQF18yvA&start_radio=1"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Escuchar nuestra canción 🎶
+                </a>
+                <p class="detalle">
+                    Se abrirá YouTube para que puedas reproducirla.
+                </p>
+            </section>
+
+            <!-- FINAL -->
+            <footer>
+                <div class="corazon-grande">❤️</div>
+                <h2>Esto es solo una parte de nuestra historia...</h2>
+                <p>Lo más bonito es todo lo que aún nos queda por vivir.</p>
+                <p class="firma">Hecho para ti, con amor. 💌</p>
+            </footer>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
